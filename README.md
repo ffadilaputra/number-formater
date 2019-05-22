@@ -1,21 +1,25 @@
-Number Formatter
+Number Formatter [![Build Status](https://travis-ci.org/ffadilaputra/number-formater.svg?branch=master)](https://travis-ci.org/ffadilaputra/number-formater) [![Coverage Status](https://coveralls.io/repos/github/ffadilaputra/number-formater/badge.svg?branch=master)](https://coveralls.io/github/ffadilaputra/number-formater?branch=master)
 =========
 
 A small library that adds commas to numbers
 
 ## Installation
 
-  `npm install @lib/number-formater`
+  `npm install @ffadilaputra/number-formater`
 
 ## Usage
 
-    var numFormatter = require('@jdaudier/number-formatter');
+    //Import the libraries
 
-    var formattedNum = numFormatter(35666);
+    let format = require('@ffadilaputra/number-formatter');
 
+    //Implement
 
-  Output should be `35,666`
+    let output = format(35666);
 
+    // Show the output
+
+    console.log(output)
 
 ## Tests
 
