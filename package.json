@@ -1,0 +1,30 @@
+{
+  "name": "number-formater",
+  "version": "0.1.0",
+  "description": "Converting Number",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "keywords": [],
+  "author": "Ivan Fadila Putra <i.fadilaputra@gmail.com> (ffadilaputra.github.io)",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffadilaputra/number-formater.git"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ffadilaputra/number-formater/issues"
+  },
+  "homepage": "https://github.com/ffadilaputra/number-formater#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4"
+  }
+}
