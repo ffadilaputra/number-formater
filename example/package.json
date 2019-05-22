@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ffadilaputra/number-formatter": "^0.2.1"
+  },
+  "keywords": [],
+  "author": "Ivan Fadila Putra <i.fadilaputra@gmail.com> (ffadilaputra.github.io)",
+  "license": "ISC"
+}
